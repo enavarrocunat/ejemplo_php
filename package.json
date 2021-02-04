@@ -1,0 +1,16 @@
+{
+  "name": "proyectobase",
+  "version": "1.0.0",
+  "description": "proyecto base de DAW",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": ".\\scripts\\build.sh",
+	"deploy": "npm run build && .\\scripts\\deploy.sh"
+  },
+  "author": "Quique",
+  "license": "ISC"
+}
